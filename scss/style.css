@@ -1,5 +1,5 @@
 body {
-  background-color: #e2be7c;
+  background-color: #F5EDE8;
 }
 
 * {
@@ -11,23 +11,29 @@ body {
 
 button {
   padding: 10px 18px;
-  border: 1px solid white;
+  border: 1px solid rgb(19, 18, 18);
   color: aliceblue;
-  background-color: rgb(15, 15, 15);
+  background-color: white;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .card__card__large {
   padding: 4% 4%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
   flex-direction: column;
   justify-content: center;
+}
+@xs {
+  .card__card__large {
+    font-size: 10px;
+    background-color: red;
+  }
 }
 .card__card__large > h1 {
   font-size: 50px;
@@ -52,6 +58,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 40vh;
   height: 400px;
   gap: 50px;
   background-color: #fff;
@@ -71,7 +78,7 @@ p {
   background-color: black;
 }
 .card__logo i {
-  color: #cc8b12;
+  color: rgb(235, 235, 241);
 }
 
 .card__content {
